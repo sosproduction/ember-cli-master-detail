@@ -1,0 +1,24 @@
+
+<table>
+  <tr>
+    <th>Date</th>
+    <th>Subject</th>
+    <th>From</th>
+    <th>To</th>
+  </tr>
+
+  {{#each message in messages}}
+    {{#link-to "mail" message tagName="tr"}}
+      
+      {{! Have to wait to get moment.js working to use helper }}
+      <td>{{! date message.date}}</td>
+      
+      <td>{{message.date}}</td>
+      <td>{{message.subject}}</td>
+      <td>{{message.from}}</td>
+      <td>{{message.to}}</td>
+    {{/link-to}}
+  {{/each}}
+</table>
+
+{{outlet}}

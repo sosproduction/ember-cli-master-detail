@@ -1,3 +1,162 @@
-html, body {
-  margin: 20px;
+
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro);
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
 }
+
+.example-output {
+    font-family: "Maven Pro";
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 1px #ffffff, -1px 1px 4px rgba(0, 0, 0, 0.1) inset;
+    display: inline-block;
+    padding: 17px;
+    width: 100%;
+}
+#routing-example .example-output h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+#routing-example .example-output h2 {
+    margin-bottom: 1em;
+}
+#routing-example .example-output h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+#routing-example .example-output .loading {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    bottom: 50%;
+    color: white;
+    height: 50px;
+    left: 50%;
+    line-height: 50px;
+    margin-left: -50px;
+    margin-top: -25px;
+    position: absolute;
+    right: 50%;
+    text-align: center;
+    top: 50%;
+    width: 100px;
+}
+#routing-example .example-output aside {
+    background-color: #f7f7f7;
+    border: 1px solid #cccccc;
+    float: left;
+    height: 430px;
+    width: 180px;
+}
+#routing-example .example-output aside ul {
+    list-style-type: none;
+}
+#routing-example .example-output aside ul li {
+    padding-bottom: 10px;
+}
+#routing-example .example-output aside h2 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding: 15px;
+    text-shadow: 1px 1px 0 #eeeeee;
+    text-transform: uppercase;
+}
+#routing-example .example-output aside a {
+    color: #333333;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+#routing-example .example-output aside a.active {
+    background-color: #eeeeee;
+}
+#routing-example .example-output aside a:hover {
+    background-color: #eeeeee;
+    border-bottom: 0 none;
+}
+#routing-example .example-output span.count {
+    border-radius: 40%;
+    color: #505f71;
+    float: right;
+    font-size: 1.1em;
+    padding: 0.2em;
+    position: relative;
+    top: -3px;
+}
+#routing-example .example-output section.main {
+    border-bottom: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    height: 430px;
+    margin-left: 180px;
+}
+#routing-example .example-output .index {
+    height: 100%;
+    padding-top: 5em;
+    text-align: center;
+}
+#routing-example .example-output table {
+    border-bottom: 1px solid #999999;
+    border-collapse: collapse;
+}
+#routing-example .example-output td, #routing-example .example-output th {
+    padding: 0.5em;
+}
+#routing-example .example-output th {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+#routing-example .example-output tr {
+    border-bottom: 1px solid #cccccc;
+    cursor: pointer;
+}
+#routing-example .example-output td a {
+    color: #333333;
+    text-decoration: none;
+}
+#routing-example .example-output tr.active {
+    background: linear-gradient(to bottom, #7db9e8, #267dc9) repeat scroll 0 0 transparent;
+    color: white;
+    text-shadow: 1px 1px 0 #666666;
+}
+#routing-example .example-output .mailbox-index {
+    color: #eeeeee;
+    font-style: italic;
+    padding-top: 5em;
+    text-align: center;
+}
+#routing-example .example-output .mail {
+    padding: 1em;
+}
+#routing-example .example-output dl {
+    border-bottom: 1px solid #333333;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    width: 100%;
+}
+#routing-example .example-output dt {
+    font-size: 0.8em;
+    font-weight: bold;
+    width: 60px;
+}
+#routing-example .example-output dd {
+    margin-bottom: 0.5em;
+}
+#routing-example .example-output .url {
+    font-family: "Maven Pro";
+    font-weight: bold;
+    height: 25px;
+    padding: 0 0 2em 0.4em;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+
+
+
+
+
+
