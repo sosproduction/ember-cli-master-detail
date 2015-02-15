@@ -6,6 +6,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: block;
 }
 
+body {
+     font-family: "Helvetic Neue", Helvetica, Arial, sans-serif;
+}
+h4 {
+    color: #e1563f;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.618em;
+    margin: 24px 0 12px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Maven Pro";
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 .example-output {
     font-family: "Maven Pro";
     background-color: white;
