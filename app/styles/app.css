@@ -22,6 +22,14 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
+#content-wrapper {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 0 20px;
+    position: relative;
+    width: 960px;
+}
+
 .example-output {
     font-family: "Maven Pro";
     background-color: white;

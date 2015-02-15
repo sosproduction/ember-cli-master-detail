@@ -1,28 +1,29 @@
 
+<div id="content-wrapper">
+  <div id="routing-example">
+    <div class="example-output">
 
-<div id="routing-example">
-  <div class="example-output">
+      <div class="url">URL: {{target.url}}</div>
+      <aside>
+        <ul>
+          <li><h2>Mailboxes</h2></li>
+          {{#each mailbox in model}}
+            <li>
+              {{#link-to "mailbox" mailbox current-when="mailbox"}}
+                <span class="count">
+                  {{mailbox.messages.length}}
+                </span>
+                {{mailbox.name}}
+              {{/link-to}}
+            </li>
+          {{/each}}
+        </ul>
+      </aside>
 
-    <div class="url">URL: {{target.url}}</div>
-    <aside>
-      <ul>
-        <li><h2>Mailboxes</h2></li>
-        {{#each mailbox in model}}
-          <li>
-            {{#link-to "mailbox" mailbox current-when="mailbox"}}
-              <span class="count">
-                {{mailbox.messages.length}}
-              </span>
-              {{mailbox.name}}
-            {{/link-to}}
-          </li>
-        {{/each}}
-      </ul>
-    </aside>
+      <section class="main">
+        {{outlet}}
+      </section>
 
-    <section class="main">
-      {{outlet}}
-    </section>
-
+    </div>
   </div>
 </div>
