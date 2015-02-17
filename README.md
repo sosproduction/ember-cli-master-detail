@@ -19,11 +19,6 @@ converted to Ember-Cli
 I converted the straight Ember App to Ember-CLI.  Only did minimal styling
 extraction to get app working correctly.
 
-#### Todos
-Need to get MomentJS working with Ember-CLI asset pipeline so date helper
-can work and show nices dates.  For some reason, momentJS doesn't want to 
-integrate properly.   
-
 For a while I have been searching for a nice example of a master detail
 interface to base a larger scale project on.  This was a great example from
 the folks @ Ember.  Wanted to convert to Ember-CLI for use.  Will be adding
